@@ -1,8 +1,8 @@
-var país = 'EUA'
-console.log('Vivendo em/no(a) ' + país)
-if (país == 'Brasil'){
-    console.log('Você é brasileiro')
-} else {
-    console.log('Você é estrangeiro')
+var idade = 12
+if (idade < 16){
+    console.log ('Não vota')
+}else if (idade <18){
+    console.log('Voto opcional')
+}else{
+    console.log('Voto obrigatório')
 }
-
